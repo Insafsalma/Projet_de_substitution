@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <Amphi msg="Création de l'amphi:" />
+    <Amphi_places msg="Placements:" />
   </div>
 </template>
 
 <script>
-import Amphi from "./components/Amphi.vue";
+//import Amphi from "./components/Amphi.vue";
+import Amphi_places from "./components/Amphi_places.vue";
 
 export default {
   name: "App",
   components: {
-    Amphi
+    Amphi_places
   }
 };
 </script>
@@ -22,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 </style>
